@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 if (!process.env["CODESPACES"]) {
   console.log(
     "This tool can only be run within the context of a GitHub Codespace: https://github.com/features/codespaces."
