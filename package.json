@@ -1,9 +1,10 @@
 {
   "name": "codespaces-port",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple CLI for retrieving the public URL of a forwarded port inside a GitHub Codespace.",
-  "main": "index.js",
-  "bin": "codespaces-port",
+  "bin": {
+    "codespaces-port": "index.js"
+  },
   "author": "Jonathan Carter",
   "license": "MIT"
 }
