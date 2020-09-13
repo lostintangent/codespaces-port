@@ -10,7 +10,7 @@ if (!process.env["CODESPACES"]) {
 const port = process.argv[2];
 if (!port) {
   console.log(
-    "Specify a port in order to retrieve it's URL: codespace-port <port>."
+    "Specify a port in order to retrieve its URL: codespaces-port <port>."
   );
   return;
 }
