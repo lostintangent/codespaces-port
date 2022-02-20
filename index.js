@@ -15,7 +15,7 @@ if (!port) {
   return;
 }
 
-const id = process.env["CLOUDENV_ENVIRONMENT_ID"];
-const url = `https://${id}-${port}.apps.codespaces.githubusercontent.com`;
+const name = process.env["CODESPACE_NAME"];
+const url = `https://${name}-${port}.githubpreview.dev`;
 
 console.log(url);
